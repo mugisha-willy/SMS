@@ -1,0 +1,43 @@
+body{
+ background-color: whitesmoke;
+}
+.container{
+ width: 350px;
+ height: 220px;
+ border: 4px solid rgb(218, 201, 201);
+ position: absolute;
+ top: 30%;
+ left:36%;
+ border-radius: 20px;
+ box-shadow: 0px 0px 10px rgb(67, 62, 56);
+ background-color: white;
+  transition: 0.3s ease;
+}
+label{
+ font-size: x-large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-left:9px;
+ margin-top: 15px;
+}
+input{
+ width:90%;
+ height: 21%;
+ margin-left:20px;
+ font-size: medium;
+ border: 2px solid rgb(202, 193, 193);
+ border-radius: 10px;
+}
+button{
+ margin-top: 5%;
+ margin-left: 33%;
+ background-color: rgba(0, 255, 42, 0.934);
+ width: 120px;
+ height: 35px;
+ border-radius: 15px;
+ font-size: medium;
+
+}
+.container:hover{
+ background-color: white ;
+ transform: scale(1.5s);
+}

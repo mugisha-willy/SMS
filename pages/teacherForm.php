@@ -1,0 +1,27 @@
+<?php
+include("../configuration/teacher_connection.php");
+?>
+
+<html>
+ <head>
+ </head>
+ <body>
+  
+  <div class="container">
+   <form  method="post">
+    <h1>Teacher Registration form</h1>
+    <div class="box">
+    <p>Names:</p>
+    <input type="text" name="names" placeholder="Enter teacher's full name" required><br>
+    <p>Email:</p>
+    <input type="email" name="email" placeholder="eneter student's email" required><br>
+    <p>class No</p>
+    <input type="number" name="class_id" placeholder="Enter the number of student's class" required><br>
+    <p>Phone Number</p>
+    <input type="tel" name="phoneNo" placeholder="Enter the teacher's phone number" required><br>
+    <button name="registerTeacher">Register</button>
+    </div>
+   </form>
+  </div>
+ </body>
+</html>
