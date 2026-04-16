@@ -9,6 +9,7 @@ ON student.class_id=classes.class_id
 ?>
 <html>
 <body>
+  <h2><a href="../pages/studentForm.php">Register new student</a></h2>
  <table border="2px">
   <tr>
    <th>id</th>
