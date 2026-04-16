@@ -11,11 +11,12 @@ if(isset($_POST['registerStudent'])){
  $mother=$_POST['motherName'];
  $guardian=$_POST['guardianName'];
 
- $insert=$connect->query("INSERT INTO student(st_id,	st_fullname	,st_email	,class_id	fatherName,	motherName	,guardianName) VALUES('$fullname','$email','$class','$father','$mother','$guardian')");
+ $insert=$connect->query("INSERT INTO student(st_fullname	,st_email	,class_id	,fatherName,	motherName	,guardianName) VALUES('$fullname','$email','$class','$father','$mother','$guardian')");
+ 
  if($insert){
  echo "<script>  alert('student registered succefully') </script>";
  }else{
   echo "<script>  alert('failed to register student') </script>";
  }
 };
-?>
+  ?>

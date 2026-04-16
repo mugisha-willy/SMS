@@ -1,6 +1,9 @@
+<?php
+include("../configuration/teacher_connection.php");
+?>
+
 <html>
  <head>
-  <link rel="stylesheet" href="../style/form.css">
  </head>
  <body>
   
