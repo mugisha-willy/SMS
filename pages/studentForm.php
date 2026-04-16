@@ -26,6 +26,6 @@ include("../configuration/student_connection.php");
     <button name="registerStudent">Reister</button>
     </div>
    </form>
-  </div>
- </body>
+</div>
+</body>
 </html>
