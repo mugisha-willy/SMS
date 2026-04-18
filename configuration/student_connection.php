@@ -15,6 +15,7 @@ if(isset($_POST['registerStudent'])){
  
  if($insert){
  echo "<script>  alert('student registered succefully') </script>";
+ header("location:table.php");
  }else{
   echo "<script>  alert('failed to register student') </script>";
  }

@@ -8,14 +8,18 @@ ON student.class_id=classes.class_id
 ");
 ?>
 <html>
+  <head>
+    <link rel="stylesheet" href="../style/table.css">
+  </head>
 <body>
-  <h2><a href="../pages/studentForm.php">Register new student</a></h2>
- <table border="2px">
+  
+ <table class="table">
   <tr>
    <th>id</th>
    <th>full name</th>
    <th>email</th>
    <th>class Name</th>
+   <th>Actions</th>
   </tr>
   <?php
    
@@ -26,8 +30,13 @@ ON student.class_id=classes.class_id
    <td><?php echo $result['st_fullname'];?></td>
    <td><?php echo $result['st_email'];?></td>
    <td><?php echo $result['class_name'];?></td>
+   <td>
+    <div class="edit"> <a href="#">EDIT</a></div>
+    <div class="delete"><a href="#">DELETE</a></div>
+   </td>
   </tr>
   <?php }?>
  </table>
+ <button><a href="../pages/studentForm.php">➕Register new student</a></button>
 </body>
 </html>
