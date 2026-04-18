@@ -28,6 +28,12 @@ tr:hover {
   background-color: rgba(0, 255, 0, 0.1);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 button {
   display: block;
   width: 200px;
@@ -45,8 +51,3 @@ button:hover {
   transform: scale(1.05);
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
