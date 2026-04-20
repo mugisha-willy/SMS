@@ -9,7 +9,7 @@ ON student.class_id=classes.class_id
 ?>
 <html>
   <head>
-    <link rel="stylesheet" href="../style/table.css">
+    
   </head>
 <body>
   
@@ -32,7 +32,9 @@ ON student.class_id=classes.class_id
    <td><?php echo $result['class_name'];?></td>
    <td>
     <div class="edit"> <a href="#">EDIT</a></div>
-    <div class="delete"><a href="#">DELETE</a></div>
+
+    <div class="delete"><a href="../configuration/deleteStudent.php?st_id=<?php echo $result['st_id']?>">DELETE</a></div>
+
    </td>
   </tr>
   <?php }?>
